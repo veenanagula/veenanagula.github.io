@@ -1,0 +1,186 @@
+/* All Styles Here */
+/* Add styles here */
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+}
+
+/*  sidebar  */
+.sidebar{
+  background-color: #d16612;
+    float: left;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+}
+.sidebar img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 100px;
+    border: 10px solid #d16612 ;
+    box-shadow: 0 0 15px black;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar ul li{
+    text-align: center;
+}
+.sidebar ul li a{
+ text-decoration: none;
+    color: lightgray;
+    padding: 10px;
+    display: inline-block;
+    font-size: 18px;
+    border: none;
+}
+.sidebar a:hover{
+    color: white;
+    cursor: pointer;
+
+}
+/* About Section  */
+
+#about-section{
+    margin: 150px 0 200px 300px;
+    padding: 20px;
+}
+.about-artical h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+    text-shadow: 0 0 3px black;
+    margin: 0;
+}
+.about-artical h2{
+    font-family: Nunito,sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+.about-artical p{
+    color: #818283;
+    font-size: 18px;
+}
+/* Experience Section  */
+#exp-section{
+    margin: 150px 0 200px 300px;
+    padding: 20px;
+}
+.exp-artical {
+    width: 270px;
+    display: inline-block;
+    padding: 10px;
+}
+.exp-section h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+#button{
+    background-color:#d16612;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+.exp-artical p{
+    font-size: 18px;
+    text-align: justify;
+}
+/* Education Section   */
+#edu-section{
+    margin: 150px 0 200px 300px;
+    padding: 20px;
+}
+.edu-section h1{
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.edu-artical{
+    border: 2px solid lightgray;
+    background-color:#d16612;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: white;
+    margin: 10px;
+}
+
+/*  Skills Section   */
+#skil-section{
+    margin: 150px 0 200px 300px;
+    padding: 20px;
+}
+.skil-section h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+
+}
+.skil-article{
+    background-color: lightgray;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    border: 5px solid #d16612;
+    margin: 10px;
+}
+/* Intrests   */
+#in-section{
+    margin: 310px;
+    padding: 20px;
+}
+.in-section h1{
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.in-article{
+    background-color: lightgray;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    border: 5px solid #d16612;
+    margin: 10px;
+}
+
+/* Certification section */
+
+#certification-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.cert-text{
+    font-size: 20px;
+    color: #818283;
+}
+.certification-article{
+    text-align: center;
+    border: 2px solid #bd5d38;
+    width: 220px;
+    display: inline-block;
+    margin: 50px 5px 5px 5px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.certification-article:hover{
+    background-color: #bd5d38;
+    box-shadow: 0 0 15px #bd5d38;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.certification-article:hover p{
+    color: white;
+}
+.certification-article img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+}
+.certification-article p{
+    padding: 10px;
+    font-size: 16px;
+}
